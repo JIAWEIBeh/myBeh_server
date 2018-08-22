@@ -1,0 +1,30 @@
+module.exports = {
+	alertHtml:[
+		'<!DOCTYPE html>',
+		'<html>',
+		'<head>',
+		'	<title>alert</title>',
+		'</head>',
+		'<body>',
+		'	<div style="position: relative;width: 100%;height:300px">',
+		'		<div id="contents" style="position: relative;width: 100%;height:300px;overflow-x: hidden;">',
+		'			<img style="width: 200px;height: 130px;position: absolute;left: 14%;top: 0;width: 400px;height: 200px;background-color: #2c3c46;" src="/images/title_1.png">',
+		'		</div>',
+		'	</div>',
+		'	<style type="text/css">',
+		'		@keyframes move{',
+		'			0%{transform: translateX(0);}',
+		'			100%{transform: translateX(-100px);}',
+		'		}',
+		'		.closeType{position: absolute;top: 8%;width: 20px;height: 20px;left: 88%;cursor: Pointer;z-index: 10001;}',
+		'		.closeType div:nth-child(1){position: absolute;width: 20px;height: 2px;background-color: #000;top: 50%;left: 0%;transform: rotate(45deg);}',
+		'		.closeType div:nth-child(2){position: absolute;width: 20px;height: 2px;background-color: #000;top: 50%;left: 0%;transform: rotate(-45deg);}',
+		'		.closeType:hover div:nth-child(1){transform: rotate(225deg);transition: all 1s;}',
+		'		.closeType:hover div:nth-child(2){transform: rotate(-225deg);transition: all 1s;}',
+		'	</style>',
+		'</body>',
+		'<script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>',
+		'<script type="text/javascript" src="/js/alert.js"></script>',
+		'</html>'
+	].join("\n")
+}
