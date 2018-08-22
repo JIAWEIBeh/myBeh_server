@@ -6,8 +6,10 @@
 
 ### IF YOU WANT RUN THIS PROJECT
 ### ==>YOU ONLY RUN :
-	npm install
-	npm run start  or  npm run dev
+	$ npm install
+	$ npm run start
+	# OR
+	$ npm run dev
 <br>
 <br>
 
