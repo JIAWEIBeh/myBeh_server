@@ -13,6 +13,6 @@
 <br>
 <br>
 
-### 最近工作繁忙 无暇继续开发此项目 过不久后再继续
+### I have no time to work on this project recently, and I will continue it later
 
 This is only the beginning.
